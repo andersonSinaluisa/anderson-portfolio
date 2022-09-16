@@ -1,6 +1,7 @@
 {
   "name": "protfolio",
   "version": "0.0.1",
+  "homepage": "https://andersonsinaluisa.github.io/anderson-portfolio/",
   "private": true,
   "dependencies": {
     "@capacitor/app": "4.0.1",
@@ -20,6 +21,7 @@
     "@types/react-router": "^5.1.11",
     "@types/react-router-dom": "^5.1.7",
     "animejs": "^3.2.1",
+    "gh-pages": "^4.0.0",
     "ionicons": "^6.0.3",
     "react": "^18.2.0",
     "react-animejs": "^0.5.6",
@@ -43,6 +45,8 @@
     "workbox-streams": "^5.1.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build", 
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --transformIgnorePatterns 'node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)'",
