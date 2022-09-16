@@ -1,7 +1,0 @@
-{
-  "name": "Protfolio",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "react"
-}
