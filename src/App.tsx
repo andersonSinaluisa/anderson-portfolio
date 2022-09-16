@@ -29,7 +29,7 @@ const App: React.FC = () => {
   return (
     <IonApp>
       <IonReactRouter>
-      <Route path="/" component={Menu} />
+      <Route path="/anderson-portfolio" component={Menu} />
       </IonReactRouter>
     </IonApp>
   );
