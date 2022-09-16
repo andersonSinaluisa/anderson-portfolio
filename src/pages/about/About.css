@@ -1,0 +1,95 @@
+.image-profile{
+    width: 50%;
+    border-radius: 25px;
+
+}
+
+.title-head-presentation{
+    font-size: 30px;
+}
+
+.container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-head-present{
+    display: flex;
+    justify-items: end;
+    justify-content: end;
+}
+
+
+.dot{
+    height: 5px;
+    width: 5px;
+    border-radius: 15px;
+    background: hsla(259, 84%, 78%, 1);
+
+    background: linear-gradient(90deg, hsla(259, 84%, 78%, 1) 0%, hsla(206, 67%, 75%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(259, 84%, 78%, 1) 0%, hsla(206, 67%, 75%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(259, 84%, 78%, 1) 0%, hsla(206, 67%, 75%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#B597F6", endColorstr="#96C6EA", GradientType=1);
+}
+
+.container-dots{
+    position: relative;
+}
+.info-profile{
+    position: absolute;
+    top: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+
+.time-item{
+    width: 400px;
+    height: 100px;
+    border-radius: 25px;
+    font-size: 13px;
+    background: yellow;
+    padding: 15px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+.time-line-content{
+    display: flex;
+}
+
+
+.progress {
+    display: inline-block;
+    width: 400px;
+    height: 20px;
+    margin: 35px;
+    border-radius: 20px;
+    background: #f9f9f9;
+}
+
+.bar {
+    border-radius: 20px;
+    width: 0%;
+    height: 100%;
+    transition: width;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(.36,.55,.63,.48);
+}
+
+
+.shadow {
+    /* 25 50 */
+    box-shadow: 0px 45px 50px rgba(0, 0, 0, 0.25); 
+}
+
+
+.overlap {
+    background-color: #b597f6;
+}

@@ -1,0 +1,9 @@
+ion-tab-bar{
+  height: 12%;
+}
+
+ion-label{
+  color:black;
+  font-size: large;
+  font-weight: bold;
+}
