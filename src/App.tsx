@@ -28,7 +28,7 @@ setupIonicReact();
 const App: React.FC = () => {
   return (
     <IonApp>
-      <IonReactRouter>
+      <IonReactRouter basename='anderson-portfolio'>
       <Route path="/" component={Menu} />
       </IonReactRouter>
     </IonApp>
