@@ -1,0 +1,64 @@
+.header-bread {
+    height: 500px;
+    background: hsla(298, 68%, 90%, 1);
+
+    background: linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(298, 68%, 90%, 1) 0%, hsla(30, 82%, 91%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#F6D5F7", endColorstr="#FBE9D7", GradientType=1);
+
+    
+
+}
+
+.docs-demo-device{
+    --device-padding: 1rem;
+    --device-width: 344px;
+    --device-height: 704px;
+    --device-frame-width: 12px;
+    padding: var(--device-padding);
+}
+
+
+.docs-demo-device.ios figure{
+    background-image: url(../../../assets/images/ios.png);
+    border-radius: 54px;
+}
+
+.docs-demo-device>figure {
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 0 2px 8px rgb(2 8 20 / 10%), 0 8px 16px rgb(2 8 20 / 8%);
+    height: var(--device-height);
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    width: var(--device-width);
+    z-index: 1;
+}
+
+.docs-demo-device__ios-notch {
+    display: none;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+.docs-demo-device.ios>figure>iframe {
+    border-radius: 38px;
+}
+.docs-demo-device>figure>iframe {
+    border: none;
+    height: calc(100% - var(--device-frame-width)*2);
+    left: 0;
+    margin: var(--device-frame-width);
+    -webkit-mask-image: -webkit-radial-gradient(#fff,#000);
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: calc(100% - var(--device-frame-width)*2);
+    z-index: 1;
+}
+

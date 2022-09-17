@@ -7,6 +7,10 @@
 .title-head-presentation{
     font-size: 30px;
 }
+.title-skill{
+    font-size: 20px;
+    font-weight: bold;
+}
 
 .container-image{
     display: flex;
@@ -18,7 +22,9 @@
     justify-items: end;
     justify-content: end;
 }
-
+.skill-text{
+    font-size: 25px;
+}
 
 .dot{
     height: 5px;

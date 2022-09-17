@@ -1,4 +1,4 @@
-import { IonCol, IonContent, IonGrid, IonImg, IonRow, IonText } from "@ionic/react";
+import { IonChip, IonCol, IonContent, IonGrid, IonImg, IonProgressBar, IonRow, IonText } from "@ionic/react";
 import React, { createElement, useState } from "react";
 import profile from '../../assets/images/profile.jpg'
 import './About.css'
@@ -84,7 +84,8 @@ const About: React.FC = () => {
 
                 </div>
                 <IonRow style={{
-                    marginLeft: "5%",
+                    margin: "5%",
+                    padding:"5%"
                 }}
                     className="info-profile"
                 >
@@ -120,7 +121,7 @@ const About: React.FC = () => {
                 <IonRow style={{ marginTop: "-20%" }}>
                     <IonCol style={{
                         padding: "10%"
-                    }}  className='title-head-presentation'>
+                    }} className='title-head-presentation'>
                         <h3><b> A brief history</b></h3>
                     </IonCol>
                 </IonRow>
@@ -147,7 +148,7 @@ const About: React.FC = () => {
 
                 </IonRow>
                 <IonRow className="time-line-content">
-                    <IonCol sizeMd="5"></IonCol>
+                    <IonCol sizeMd="4"></IonCol>
 
                     <IonCol style={{
                         justifyContent: "center"
@@ -169,7 +170,7 @@ const About: React.FC = () => {
 
                 </IonRow>
                 <IonRow className="time-line-content">
-                    <IonCol sizeMd="2"></IonCol>
+                    <IonCol sizeMd="1"></IonCol>
 
                     <IonCol style={{
                         justifyContent: "center"
@@ -189,10 +190,71 @@ const About: React.FC = () => {
                     </IonCol>
 
                 </IonRow>
-                <IonRow  style={{
-                        padding: "10%"
-                    }}>
-                    
+                <IonRow style={{
+                    padding: "10%"
+                }}>
+                    <IonCol sizeMd="12">
+                        <h1><b>Skills</b></h1>
+                    </IonCol>
+                    <IonCol sizeMd="6">
+
+                        <IonCol>
+                            <IonText color="black" className='title-skill'>
+                                Frontend
+                                <br />
+                                <IonChip color="tertiary">React.js</IonChip>
+                                <IonChip color="tertiary">Angular</IonChip>
+                                <IonChip color="tertiary">HTML</IonChip>
+                                <IonChip color="tertiary">CSS</IonChip>
+                                <IonChip color="tertiary">Javascript</IonChip>
+
+                            </IonText>
+                            <br /><br />
+
+                            <IonProgressBar value={0.9} color="tertiary"></IonProgressBar>
+                        </IonCol>
+                        <IonCol >
+                            <IonText color="black" className='title-skill'>
+                                Backend
+                                <br />
+                                <IonChip color="success">Django</IonChip>
+                                <IonChip color="success">Rest Framework</IonChip>
+                                <IonChip color="success">Laravel</IonChip>
+                                <IonChip color="success">Node js</IonChip>
+                                <IonChip color="success">Spring boot</IonChip>
+                                <IonChip color="success">Java</IonChip>
+                                <IonChip color="success">Python</IonChip>
+                                <IonChip color="success">PHP</IonChip>
+
+                            </IonText>
+                            <br /><br />
+
+                            <IonProgressBar value={0.9} color="success"></IonProgressBar>
+                        </IonCol>
+                        <IonCol>
+                            <IonText color="black" className='title-skill'>
+                                Mobile
+                                <br />
+                                <IonChip color="danger">Android (Java)</IonChip>
+                                <IonChip color="danger">React Native</IonChip>
+                                <IonChip color="danger">Flutter</IonChip>
+                            </IonText>
+                            <br /><br />
+
+                            <IonProgressBar value={0.6} color="danger"></IonProgressBar>
+                        </IonCol>
+                    </IonCol>
+                    <IonCol>
+                        <IonText color="black" className="skill-text">
+                            {"Since I started my journey as a developer, I have quickly gained experience in various areas of development. I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is front-end and back-end development, building small to medium web applications, custom plugins, features, and coding interactive layouts."}
+                            <br /><br />
+                            {"I also have experience as a full-stack developer with popular open source apps like WordPress, creating functional plugins that interact with the CMS."}
+                        </IonText>
+
+                    </IonCol>
+                </IonRow>
+                <IonRow>
+
                 </IonRow>
             </IonGrid>
 

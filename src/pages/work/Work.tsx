@@ -5,11 +5,12 @@ import './Work.css'
 import image_dev from '../../assets/images/undraw_programming_re_kg9v.svg'
 import file_system from '../../assets/images/file-system.png'
 import recycle_ia from '../../assets/images/recycle_ia.png'
+import { useHistory, useLocation } from 'react-router';
 
 const Work: React.FC = () => {
   let animationRef = React.useRef<any>(null);
-
-
+  let location = useLocation()
+  let history = useHistory();
   React.useEffect(() => {
     animationRef.current = anime({
       targets: ".el",
@@ -68,6 +69,12 @@ const Work: React.FC = () => {
   }, [])
 
 
+  const handleRedirect = (path: string) => {
+    history.push(path)
+  }
+
+
+
   return (
     <>
 
@@ -124,13 +131,12 @@ const Work: React.FC = () => {
 
                     WEB APP
                   </IonCardSubtitle>
-                  <IonCardTitle  >
-
+                  <IonCardTitle>
                     <a href='https://filesystem144.herokuapp.com/' className='card-project-title'>File System</a>
                   </IonCardTitle>
                 </IonCardHeader>
                 <IonCardContent>
-                  <IonImg src={file_system}>
+                  <IonImg src={file_system} onClick={() => handleRedirect('/file-system')}>
                   </IonImg>
                 </IonCardContent>
 
@@ -156,19 +162,16 @@ const Work: React.FC = () => {
               </IonCard>
             </IonCol>
           </IonRow>
-          <IonRow  align-items-center>
-          <IonCol></IonCol>
+          <IonRow align-items-center>
+            <IonCol></IonCol>
             <IonCol>
               <IonText color="black" className='title-footer-presentation'>
-
                 I occasionally take on freelance opportunities.
-
-
               </IonText>
               <IonText>
 
                 <p>
-                 
+
                 </p>
               </IonText>
             </IonCol>
