@@ -196,13 +196,14 @@ const About: React.FC = () => {
                     <IonCol sizeMd="12">
                         <h1><b>Skills</b></h1>
                     </IonCol>
-                    <IonCol sizeMd="6">
+                    <IonCol sizeMd="6" sizeXs="12" sizeSm="12">
 
                         <IonCol>
                             <IonText color="black" className='title-skill'>
                                 Frontend
                                 <br />
                                 <IonChip color="tertiary">React.js</IonChip>
+                                <IonChip color="tertiary">Ionic</IonChip>
                                 <IonChip color="tertiary">Angular</IonChip>
                                 <IonChip color="tertiary">HTML</IonChip>
                                 <IonChip color="tertiary">CSS</IonChip>
