@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/anderson-portfolio/static/css/main.6cc1204d.css",
-    "main.js": "/anderson-portfolio/static/js/main.2f17cd14.js",
+    "main.js": "/anderson-portfolio/static/js/main.cdec0d5b.js",
     "static/js/443.fe8e5339.chunk.js": "/anderson-portfolio/static/js/443.fe8e5339.chunk.js",
     "static/js/738.58bdae45.chunk.js": "/anderson-portfolio/static/js/738.58bdae45.chunk.js",
     "static/js/372.a575dc35.chunk.js": "/anderson-portfolio/static/js/372.a575dc35.chunk.js",
@@ -13,6 +13,7 @@
     "static/js/186.89edba54.chunk.js": "/anderson-portfolio/static/js/186.89edba54.chunk.js",
     "static/js/377.f3a2face.chunk.js": "/anderson-portfolio/static/js/377.f3a2face.chunk.js",
     "static/media/recycle_ia.png": "/anderson-portfolio/static/media/recycle_ia.91e5fac03438f020de63.png",
+    "static/media/employee-vaccination.png": "/anderson-portfolio/static/media/employee-vaccination.1734033edf6619670236.png",
     "static/media/file-system.png": "/anderson-portfolio/static/media/file-system.adc88b50cd0b88ae629b.png",
     "static/media/Quicksand-Regular.ttf": "/anderson-portfolio/static/media/Quicksand-Regular.04b11c8f0d4d58c1bed1.ttf",
     "static/media/Quicksand-SemiBold.ttf": "/anderson-portfolio/static/media/Quicksand-SemiBold.80ffdcf8e73fc889b11f.ttf",
@@ -24,7 +25,7 @@
     "static/media/ios.png": "/anderson-portfolio/static/media/ios.6e7299311f1ad1397d55.png",
     "index.html": "/anderson-portfolio/index.html",
     "main.6cc1204d.css.map": "/anderson-portfolio/static/css/main.6cc1204d.css.map",
-    "main.2f17cd14.js.map": "/anderson-portfolio/static/js/main.2f17cd14.js.map",
+    "main.cdec0d5b.js.map": "/anderson-portfolio/static/js/main.cdec0d5b.js.map",
     "443.fe8e5339.chunk.js.map": "/anderson-portfolio/static/js/443.fe8e5339.chunk.js.map",
     "738.58bdae45.chunk.js.map": "/anderson-portfolio/static/js/738.58bdae45.chunk.js.map",
     "372.a575dc35.chunk.js.map": "/anderson-portfolio/static/js/372.a575dc35.chunk.js.map",
@@ -38,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.6cc1204d.css",
-    "static/js/main.2f17cd14.js"
+    "static/js/main.cdec0d5b.js"
   ]
 }
